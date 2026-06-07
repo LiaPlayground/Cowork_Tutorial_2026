@@ -62,11 +62,16 @@ einen Sprecher-Text mit --{{0}}--. Gib nur den Markdown-Code aus.
 
 ---
 
-## C. Struktur, Navigation & Verlinkung *(F5, F7, F15 · 🔴/🟡 · ⚠️)*
+## C. Struktur, Navigation & Verlinkung *(F5, F7, F15 · 🔴/🟡 · 🟢 in 03)*
 
 **Ansprechen:** Cluster, das fürs Handbuch (viele Kapitel) essenziell ist und in Nov fehlte.
 Kernidee: **Die Seitenleiste/Navigation entsteht automatisch aus der Überschriften-Hierarchie.**
 Man „baut" kein Menü — man strukturiert mit `#`, `##`, `###`.
+
+> **Schon im Material:** Die Überschriften-Strukturierung üben die Teilnehmenden in
+> **Phase 03, Aufgabe 3** („Überschriften, Subüberschriften"), das Verlinken/Bilder in
+> **Aufgabe 7** („Links und Bilder"). Hier also an die gebauten Strukturen anknüpfen und
+> zeigen, dass die Navigation *daraus* automatisch entsteht.
 
 **Beispiel — Navigation = Gliederung (F7, F15):**
 
@@ -93,11 +98,15 @@ Springe zur [nächsten Folie](#15).
 
 ---
 
-## D. Tabellen über Markdown hinaus *(F3 · 🔴 · ⚠️)*
+## D. Tabellen über Markdown hinaus *(F3 · 🔴 · Basis in 03, Rest neu)*
 
 **Ansprechen:** „Markdown-Tabellen sind simpel — geht mehr?" Ja: **Färben und Formatieren
 per HTML-Kommentar**, sowohl für die ganze Tabelle als auch einzelne Zellen.
 *Zellen verbinden (colspan/rowspan) gehört ehrlich zu den Grenzen* — dafür ggf. HTML-Tabelle.
+
+> **Schon im Material:** Die *Basis*-Tabelle bauen die Teilnehmenden in **Phase 03,
+> Aufgabe 5**. Das **Färben/Formatieren** per HTML-Kommentar (unten) ist der Schritt
+> *darüber hinaus* — hier als Erweiterung der gerade gebauten Tabelle vorzeigen.
 
 **Beispiel — Tabelle + einzelne Zellen einfärben:**
 
@@ -115,10 +124,16 @@ per HTML-Kommentar**, sowohl für die ganze Tabelle als auch einzelne Zellen.
 
 ---
 
-## E. Medien — Bild, Audio, Video, Podcast, H5P *(F8–F12 · 🟡/🔴 · ⚠️)*
+## E. Medien — Bild, Audio, Video, Podcast, H5P *(F8–F12 · 🟡/🔴 · 🟢 in 03)*
 
 **Ansprechen:** Die meistgenannte Medien-Bandbreite. Eine zentrale Faustregel zeigen:
 **`!` Bild · `?` Audio · `!?` abspielbares Medium · `??` eingebettete Ressource.**
+
+> **Schon im Material:** Genau diese vier Varianten üben die Teilnehmenden selbst in
+> **Phase 03, Aufgabe 9** („Abspielbare Medien und eingebettete Seiten") — inkl. des
+> Experiments `!` vs. `!?` und `?` vs. `??`. In **Phase 01** sehen sie ein eingebettetes
+> Video (`!?`) und eine Tabelle-als-Diagramm live. Hier also **an die Aufgabe anknüpfen**,
+> nicht bei Null erklären — die Faustregel als Zusammenfassung dessen, was sie gleich tun.
 
 **Beispiel — Bild mit Größe + Alt-Text (F8):**
 
@@ -154,11 +169,17 @@ Praktisch über iframe-Einbettung des H5P-Inhalts:
 
 ---
 
-## F. Design, Gestaltung & Barrierefreiheit *(F14 · 🟡 · ⚠️)*
+## F. Design, Gestaltung & Barrierefreiheit *(F14 · 🟡 · 🟢 im Repo)*
 
 **Ansprechen:** Gestaltung läuft über **`link:` (eigene CSS)** im Header + Klassen per
 HTML-Kommentar — genau wie die `style.css` dieses Workshops. Wunsch explizit aufgreifen:
 **barrierearm + CC-BY-kompatibel** (keine Lese-Hürden, guter Kontrast — vgl. Silvias Blog-Beispiel).
+
+> **Schon im Material:** Die `style.css` liegt **real im Repo** und ist über `link: style.css`
+> in den Phasen-Headern (01, 02, 04, README) eingebunden — ein lauffähiges Live-Beispiel zum
+> Aufmachen. (Die Übungsvorlage 03 startet bewusst ohne `link:` — das `link:`-Einbinden kann
+> man dort als Live-Erweiterung vorführen.) Hier also nicht abstrakt erklären, sondern die echte
+> Datei + einen Header zeigen.
 
 **Beispiel — eigenes Stylesheet + Klasse anwenden:**
 

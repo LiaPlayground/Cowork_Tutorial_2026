@@ -72,6 +72,7 @@ _Alles, was Sie hier sehen, ist reiner Markdown-Text. Den Quellcode finden Sie u
 | **Verstehen**  | [Idee und Konzepte hinter LiaScript](https://liascript.github.io/course/?https://raw.githubusercontent.com/LiaPlayground/Cowork_Tutorial_2026/main/02_Verstehen.md) als OER                |
 | **Anwenden**   | [Template](https://liascript.github.io/course/?https://raw.githubusercontent.com/LiaPlayground/Cowork_Tutorial_2026/main/03_Anwenden.md) im LiaScript Live Editor                         |
 | **Verbreiten** | [Verbreiten von LiaScript-Kursen](https://liascript.github.io/course/?https://raw.githubusercontent.com/LiaPlayground/Cowork_Tutorial_2026/main/04_Verbreiten.md)                          |
+| **Vertiefung** | [Vertiefung & FAQ](https://liascript.github.io/course/?https://raw.githubusercontent.com/LiaPlayground/Cowork_Tutorial_2026/main/05_Vertiefung.md) — Antworten auf die offenen Teilnehmerfragen, je am Beispiel |
 
 > [!NOTE]
 > Im Workshop verwenden wir die [LiaScript-Cheatsheet](cheatSheet/cheatsheet.pdf) als gedruckte Begleithilfe — sie fasst die Markdown- und LiaScript-Syntax kompakt zusammen.

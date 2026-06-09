@@ -186,7 +186,8 @@ import: https://raw.githubusercontent.com/andre-dietrich/H5P-embed/main/README.m
 
 ```markdown @embed.style(height: 620px; min-width: 100%; border: 1px black solid)
 <!--
-import: https://raw.githubusercontent.com/andre-dietrich/H5P-embed/main/README.md
+persistent: true
+import:     https://raw.githubusercontent.com/andre-dietrich/H5P-embed/main/README.md
 -->
 
 # H5P – 360°-Virtual-Tour
@@ -199,6 +200,7 @@ import: https://raw.githubusercontent.com/andre-dietrich/H5P-embed/main/README.m
 
 **Ein eigenes, nachnutzbares Modul.** So sieht es aus, wenn die `.html` im *eigenen* Repo liegt — hier ein interaktives H5P-Modul „Peer Instruction verstehen" (ein *Interactive Book* mit Wissenschecks und Dialogkarten, CC BY 4.0), das wir nach `Medien/` gelegt haben:
 
+
 ```markdown @embed.style(height: 640px; min-width: 100%; border: 1px black solid)
 <!--
 import: https://raw.githubusercontent.com/andre-dietrich/H5P-embed/main/README.md
@@ -210,24 +212,24 @@ import: https://raw.githubusercontent.com/andre-dietrich/H5P-embed/main/README.m
 ```
 
 > [!NOTE]
-> **Das ist der OER-Idealfall:** Die H5P-Datei liegt neben Ihrem Kurs im selben Repository — sie reist mit, ist versioniert und unter CC BY nachnutzbar. Innerhalb des Moduls finden sich interaktive Frage- und Selbsttest-Elemente; so deckt H5P auch quiz-artige Formate ab, die über die nativen LiaScript-Quizze hinausgehen.
+> **Das ist der OER-Idealfall:** Die H5P Datei haben wir mithilfe von [Lumi](https://lumi.education/de/) eine HTML-Datei umgewandelt, die keinen H5P-Player mehr benötigt, sondern direkt im Browser ausgeführt werden kann. Idealerweise liegt diese Datai neben Ihrem Kurs im selben Repository — sie reist mit, ist versioniert und unter CC BY nachnutzbar. Innerhalb des Moduls finden sich interaktive Frage- und Selbsttest-Elemente; so deckt H5P auch quiz-artige Formate ab, die über die nativen LiaScript-Quizze hinausgehen.
 >
 > *„Modul 3: Peer Instruction verstehen – Grundlagen und Methodik" von Hanna Kubrak, [vhb OER-Portal](https://oer.vhb.org/edu-sharing/components/render/8d2cb682-6d3b-4a7b-aa58-0e26995dfe68), lizenziert unter [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*
 
 **Der einfache Weg ohne Template** — für eine schnelle Einbettung einer gehosteten H5P-Seite genügt die eingebettete Ressource `??`:
 
 ```markdown
-??[Interaktives H5P-Video](https://app.lumi.education/run/XXXXXX)
+??[Interaktives H5P-Video](https://h5p.org/h5p/embed/617)
 ```
 
 > [!NOTE]
 > **Die Abwägung für OER:**
 >
-> | | LiaScript-Quiz (nativ) | H5P (Template, `.html`) | H5P (`??`-Embed) |
-> | --- | --- | --- | --- |
-> | **Wo lebt der Inhalt?** | in der Markdown-Datei | als Datei neben dem Kurs | auf externem Host |
-> | **5V-Freiheiten** | vollständig | weitgehend (Datei reist mit) | hängen am Host |
-> | **Offline / dauerhaft** | ja | ja | nein |
+> |                         | LiaScript-Quiz (nativ) | H5P (Template, `.html`)      | H5P (`??`-Embed)  |
+> | ----------------------- | ---------------------- | ---------------------------- | ----------------- |
+> | **Wo lebt der Inhalt?** | in der Markdown-Datei  | als Datei neben dem Kurs     | auf externem Host |
+> | **5V-Freiheiten**       | vollständig            | weitgehend (Datei reist mit) | hängen am Host    |
+> | **Offline / dauerhaft** | ja                     | ja                           | nein              |
 >
 > Vieles, wofür man H5P einsetzt (Multiple-Choice, Lückentext, Drag-the-Words), bilden die **nativen LiaScript-Quizze** ab — und die reisen als Text mit. H5P lohnt sich für Formate, die LiaScript nicht kennt.
 
